@@ -130,12 +130,12 @@ Setting('TPRINTER_CONNECTOR', '/dev/usb/lp0'); // Printer device (does only matt
 // Here you can disable the parts which you don't need to have a less cluttered UI
 // (set the setting to "false" to disable the corresponding part, which should be self explanatory)
 Setting('FEATURE_FLAG_STOCK', true);
-Setting('FEATURE_FLAG_SHOPPINGLIST', true);
-Setting('FEATURE_FLAG_RECIPES', true);
-Setting('FEATURE_FLAG_CHORES', true);
+Setting('FEATURE_FLAG_SHOPPINGLIST', false);
+Setting('FEATURE_FLAG_RECIPES', false);
+Setting('FEATURE_FLAG_CHORES', false);
 Setting('FEATURE_FLAG_TASKS', true);
-Setting('FEATURE_FLAG_BATTERIES', true);
-Setting('FEATURE_FLAG_EQUIPMENT', true);
+Setting('FEATURE_FLAG_BATTERIES', false);
+Setting('FEATURE_FLAG_EQUIPMENT', false);
 Setting('FEATURE_FLAG_CALENDAR', true);
 Setting('FEATURE_FLAG_LABEL_PRINTER', false);
 
@@ -146,9 +146,9 @@ Setting('FEATURE_FLAG_STOCK_BEST_BEFORE_DATE_TRACKING', true);
 Setting('FEATURE_FLAG_STOCK_PRODUCT_OPENED_TRACKING', true);
 Setting('FEATURE_FLAG_STOCK_PRODUCT_FREEZING', true);
 Setting('FEATURE_FLAG_STOCK_BEST_BEFORE_DATE_FIELD_NUMBER_PAD', true); // Activate the number pad in due date fields on (supported) mobile browsers
-Setting('FEATURE_FLAG_SHOPPINGLIST_MULTIPLE_LISTS', true);
-Setting('FEATURE_FLAG_RECIPES_MEALPLAN', true);
-Setting('FEATURE_FLAG_CHORES_ASSIGNMENTS', true);
+Setting('FEATURE_FLAG_SHOPPINGLIST_MULTIPLE_LISTS', false);
+Setting('FEATURE_FLAG_RECIPES_MEALPLAN', false);
+Setting('FEATURE_FLAG_CHORES_ASSIGNMENTS', false);
 Setting('FEATURE_FLAG_THERMAL_PRINTER', false);
 
 // Feature settings
